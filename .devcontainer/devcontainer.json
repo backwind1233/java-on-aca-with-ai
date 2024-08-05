@@ -8,5 +8,7 @@
       "installMaven": "true"
     }
   },
-  "postCreateCommand": "update-java-alternatives --set /usr/lib/jvm/java-17-graalvm"
+  "remoteEnv": {
+    "JAVA_HOME": "/usr/lib/jvm/java-17-graalvm"
+  }
 }
