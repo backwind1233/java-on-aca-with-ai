@@ -7,5 +7,6 @@
       "installGradle": "true",
       "installMaven": "true"
     }
-  }
+  },
+  "postCreateCommand": "update-java-alternatives --set /usr/lib/jvm/java-17-graalvm"
 }
