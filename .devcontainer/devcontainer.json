@@ -8,8 +8,5 @@
       "installMaven": "true",
       "jdkDistro": "graal"
     }
-  },
-  "remoteEnv": {
-    "JAVA_HOME": "/usr/lib/jvm/java-17-graalvm"
-  }
+  }  
 }
