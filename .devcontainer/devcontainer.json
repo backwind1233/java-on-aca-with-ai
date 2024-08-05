@@ -5,7 +5,8 @@
     "ghcr.io/devcontainers/features/java:1": {
       "version": "17.0.11-graal",
       "installGradle": "true",
-      "installMaven": "true"
+      "installMaven": "true",
+      "jdkDistro": "graal"
     }
   },
   "remoteEnv": {
